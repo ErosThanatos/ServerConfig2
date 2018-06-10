@@ -18,7 +18,11 @@ jump: 9
 maxHearts: 50
 permissions:
   superherocity:
+  - immune.mindcontrol
+  - immune.destroyworld
+  - powers.mindcontrol
   - powers.wallrun
+  - ch.alias.create
   - ch.alias.dropplayer
   - ch.alias.carryplayer
   - ch.alias.modifyspeed
@@ -30,6 +34,8 @@ powers:
 - /items
 - /carryplayer <player>
 - /dropplayer
+- /mindcontrol <player>
+- /create <item> <quantity> <color>
 - /jump 0-9
 - /run 0-9
 - /haste 0-9
